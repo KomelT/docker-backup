@@ -7,10 +7,10 @@ services:
       dockerfile: dockerfile.dev
     environment:
       DO_BA_S3: true
-      DO_BA_S3_ACESS_KEY_ID: ""
-      DO_BA_S3_SECRET_ACESS_KEY: ""
-      DO_BA_S3_BUCKET: ""
-      DO_BA_S3_BUCKET_REGION: ""
+      DO_BA_S3_ENDPOINT: ${DO_BA_S3_ENDPOINT}
+      DO_BA_S3_ACESS_KEY_ID: ${DO_BA_S3_ACESS_KEY_ID}
+      DO_BA_S3_SECRET_ACESS_KEY: ${DO_BA_S3_SECRET_ACESS_KEY}
+      DO_BA_S3_BUCKET: ${DO_BA_S3_BUCKET}
     volumes:
       - ./app:/app
       - /app/node_modules
