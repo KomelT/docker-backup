@@ -1,0 +1,22 @@
+{
+  "name": "docker-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KomelT/docker-backup.git"
+  },
+  "author": "Tilen Komel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KomelT/docker-backup/issues"
+  },
+  "homepage": "https://github.com/KomelT/docker-backup#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
