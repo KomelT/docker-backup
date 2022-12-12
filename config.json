@@ -1,0 +1,8 @@
+[
+  {
+    "stack": "nextcloud",
+    "files": ["/appdata/nextcloud/html", "/appdata/nextcloud/data"],
+    "db": "mysqldump --single-transaction -u nextcloud -pnextcloud nextcloud",
+    "volumes": []
+  }
+]
